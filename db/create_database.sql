@@ -514,6 +514,8 @@ CREATE UNIQUE CLUSTERED INDEX idx_mv_employee_project_hours_summary
 ON core.mv_employee_project_hours_summary (employee_id, project_id);
 GO
 
+
+-- View (from the index view) without personal information
 CREATE VIEW ano.mv_employee_project_hours_summary_anonymized
 AS
 SELECT
@@ -565,6 +567,8 @@ ON core.projects (client_id);
 CREATE NONCLUSTERED INDEX idx_timesheet_employee_id
 ON core.timesheet (employee_id);
 
+
+-- fields indexes
 -- Index for timesheet_status (filtering timesheets by status)
 CREATE NONCLUSTERED INDEX idx_timesheet_status
 ON core.timesheet (timesheet_status);
