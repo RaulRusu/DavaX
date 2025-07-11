@@ -1,0 +1,329 @@
+Name,Email,Department,Experience_level,Location,Manager_ID
+Alice Tache,Alice.Tache@endava.com,HR,Senior,Bucuresti,0
+Alexandru Burlica,Alexandru.Burlica@endava.com,Marketing,Senior,Bucuresti,1
+Emanuel Luculescu,Emanuel.Luculescu@endava.com,Finance,Senior,Cluj,1
+Radu Ioan Maris,Radu-Ioan.Maris@endava.com,HR,Senior,Iasi,1
+Daniel Antoniu Dumitru,Daniel-Antoniu.Dumitru@endava.com,Sales,Senior,Timisoara,1
+Andreea Grecu,Andreea.Grecu2@endava.com,Finance,Senior,Cluj,3
+Gabriela Miruna Stan,Gabriela-Miruna.Stan@endava.com,HR,Mid,Cluj,4
+Paul Valentin Vela,Paul-Valentin.Vela@endava.com,Finance,Senior,Cluj,3
+Alexandra Simona Danca,Alexandra-Simona.Danca@endava.com,Finance,Junior,Bucuresti,2
+Rares Muresan,Rares.Muresan@endava.com,IT,Mid,Cluj,3
+Florina Eugenia Hategan,Florina---Eugenia.Hategan@endava.com,HR,Senior,Bucuresti,4
+Darius Cosmin Vararean,Darius-Cosmin.Vararean@endava.com,IT,Senior,Cluj,4
+Rares Anton Brezeanu,Rares-Anton.Brezeanu@endava.com,IT,Senior,Timisoara,3
+Radu Nicolae,Radu-Mihai.Nicoale@endava.com,IT,Senior,Bucuresti,4
+Stefan Gabriel Verde,Stefan-Gabriel.Verde@endava.com,HR,Senior,Timisoara,4
+Stefan Liute,Stefan.Liute@endava.com,HR,Senior,Bucuresti,3
+Cosmin-Nicusor Brumariu,Cosmin-Nicusor.Brumariu@endava.com,HR,Junior,Cluj,2
+Arthur Negosanu,Arthur.Negosanu@endava.com,IT,Mid,Bucuresti,2
+Madalina Puia,Madalina.Puia@endava.com,Finance,Senior,Iasi,5
+Vlad Ionut Guriuc,Vlad-Ionut.Guriuc@endava.com,IT,Junior,Timisoara,4
+Sebastian Cristian Sleam,Sebastian-Cristian.Sleam@endava.com,Finance,Junior,Timisoara,4
+Andrei Margelatu,Andrei.Margelatu@endava.com,Finance,Mid,Cluj,5
+Mihnea Sebastian Ilie Encean,Mihnea-Sebastian-Ilie.Encean@endava.com,Finance,Mid,Cluj,4
+Stefan Tiberiu Paduraru,Stefan-Tiberiu.Paduraru@endava.com,Finance,Junior,Iasi,3
+Ferdinand Alexandru Cabat,Ferdinand-Alexandru.Cabat@endava.com,Finance,Senior,Iasi,5
+Bianca Anamaria Chiorean,Bianca-Anamaria.Chiorean@endava.com,HR,Senior,Bucuresti,5
+Andrei Alexandru Gheorghe,Andrei-Alexandru.Gheorghe@endava.com,Finance,Senior,Iasi,2
+Ioana Victoria Zinveliu,Ioana-Victoria.Zinveliu@endava.com,Finance,Mid,Bucuresti,5
+Alexandru Mihai Matei,Alexandru-Mihai.Matei@endava.com,HR,Mid,Timisoara,5
+Adelin Andrei Fulop,Adelin-Andrei.Fulop@endava.com,IT,Mid,Timisoara,4
+Marcos Dimitris Fetcu,Marcos-Dimitris.Fetcu@endava.com,HR,Senior,Cluj,4
+Andrei Madalin Diaconu,Andrei-Madalin.Diaconu@endava.com,IT,Mid,Cluj,3
+Sabin Chirila,Sabin.Chirila@endava.com,IT,Senior,Bucuresti,2
+Luisa Yi Qing Yang,Luisa-Yi-Qing.Yang@endava.com,IT,Junior,Timisoara,3
+Andrei Andries,Andrei.Andries@endava.com,IT,Mid,Timisoara,5
+Dan Teodor Buzoianu,Dan-Teodor.Buzoianu@endava.com,Finance,Junior,Bucuresti,2
+Polina Ciumac,Polina.Ciumac@endava.com,HR,Junior,Cluj,5
+Daniel Rotaru,Daniel.Rotaru@endava.com,IT,Senior,Cluj,4
+Alexandru Marian Armanu,Alexandru-Marian.Armanu@endava.com,Finance,Senior,Timisoara,2
+Mihai Alexandru Ionel,Mihai-Alexandru.Ionel@endava.com,HR,Mid,Iasi,4
+Ioana Alexia Popa,Ioana-Alexia.Popa@endava.com,IT,Junior,Iasi,4
+Sorin Cristian Miron,Sorin-Cristian.Miron@endava.com,IT,Senior,Timisoara,5
+Andrei Ionascu,Andrei.Ionascu@endava.com,Finance,Senior,Bucuresti,5
+Bogdan Ionut Tibuleac,Bogdan-Ionut.Tibuleac@endava.com,IT,Junior,Cluj,2
+Teodora Maximiuc,Teodora.Maximiuc@endava.com,Finance,Junior,Bucuresti,5
+Sanda Dobrenco,Sanda.Dobrenco@endava.com,HR,Mid,Cluj,3
+Alexandra Elena Pitaru,Alexandra-Elena.Pitaru@endava.com,Finance,Mid,Timisoara,4
+Bogdan Patrania,Bogdan.Patrania@endava.com,IT,Mid,Bucuresti,3
+Alexandru Catrinescu,Alexandru.Catrinescu@endava.com,IT,Junior,Iasi,3
+Razvan Dumitru,Razvan.Dumitru@endava.com,HR,Senior,Timisoara,2
+Vlad Muresan,Vlad.Muresan3@endava.com,Finance,Junior,Iasi,4
+Adina Gheorghevici,Adina.Gheorghevici@endava.com,Finance,Senior,Bucuresti,4
+Iasmina Pagu,Iasmina-Andra.Pagu@endava.com,Finance,Senior,Iasi,4
+Madalina Demian,Madalina.Demian@endava.com,HR,Junior,Timisoara,4
+Dumitru Andrei Iroftei,Dumitru-Andrei.Iroftei@endava.com,Finance,Mid,Timisoara,5
+Alexandru Zosin,Alexandru.Zosin@endava.com,IT,Junior,Cluj,5
+Gheorghe-Cristian Terovan,Gheorghe-Cristian.Terovan@endava.com,HR,Senior,Iasi,3
+Cosmin Adrian Neamtiu,Cosmin-Adrian.Neamtiu@endava.com,Finance,Senior,Cluj,4
+Alexandra Zamfir,Alexandra.Zamfir@endava.com,HR,Senior,Iasi,2
+Costin Manolescu,Costin.Manolescu@endava.com,IT,Senior,Cluj,4
+Theodor Cristian Gheorghe,Theodor-Cristian.Gheorghe@endava.com,HR,Mid,Timisoara,4
+Denis Roca,Denis.Roca@endava.com,IT,Senior,Bucuresti,2
+Alex Rares Roman,Alex-Rares.Roman@endava.com,Finance,Junior,Bucuresti,2
+Alexandru Toma,Alexandru.Toma@endava.com,IT,Senior,Cluj,5
+Iulia Olivia Cipleu,Iulia-Olivia.Cipleu@endava.com,Finance,Junior,Iasi,4
+Catalin Ursu,Catalin.Ursu@endava.com,HR,Senior,Iasi,4
+Maria Madalina Olaru,Maria-Madalina.Olaru@endava.com,HR,Mid,Timisoara,2
+George Stefan Bodogae,George-Stefan.Bodogae@endava.com,IT,Senior,Iasi,5
+Simona Boicu,Simona.Boicu@endava.com,IT,Junior,Cluj,2
+Timotei Cristian Morar,Timotei-Cristian.Morar@endava.com,HR,Senior,Timisoara,4
+Silviu Mihail Pavel,Silviu-Mihail.Pavel@endava.com,HR,Mid,Cluj,5
+Ana Stefania Serbanoiu,Ana-Stefania.Serbanoiu@endava.com,Finance,Junior,Iasi,5
+Cristian Ghiuta,Cristian.Ghiuta@endava.com,IT,Junior,Timisoara,3
+Constantin Voicu,Constantin.Voicu@endava.com,HR,Mid,Bucuresti,5
+Ioana Botezatu,Ioana.Botezatu@endava.com,HR,Mid,Timisoara,3
+Razvan Niculae,razvan.niculae@endava.com,HR,Senior,Cluj,4
+Florin Nita,Florin.Nita@endava.com,HR,Mid,Cluj,4
+Andrei Octavian Minca,Andrei-Octavian.Minca@endava.com,HR,Senior,Timisoara,3
+Liviu Istrate,Liviu.Istrate2@endava.com,HR,Mid,Iasi,5
+Andrei Mihnea,Andrei.Mihnea@endava.com,Finance,Senior,Bucuresti,5
+Robert-Cosmin Tudorache,Robert-Cosmin.Tudorache@endava.com,IT,Senior,Timisoara,2
+Daria Lupu Dima,Daria.Lupu@endava.com,IT,Mid,Bucuresti,3
+Denisa Lutic,Denisa.Lutic@endava.com,Finance,Mid,Timisoara,2
+Oana-Maria Danciu,Oana-Maria.Danciu@endava.com,IT,Mid,Cluj,4
+Bogdan Vasile Spilevoi,Bogdan-Vasile.Spilevoi@endava.com,Finance,Junior,Iasi,2
+Armin Andrei Chanchian,Armin-Andrei.Chanchian@endava.com,HR,Mid,Iasi,2
+Cosmin Chirazi,Cosmin.Chirazi@endava.com,HR,Mid,Timisoara,2
+Gabriel Firisar,Gabriel.Firisar@endava.com,Finance,Senior,Cluj,4
+David Postolea,David.Postolea@endava.com,Finance,Junior,Cluj,2
+Tiberiu Gabriel Suditu,Tiberiu-Gabriel.Suditu@endava.com,HR,Senior,Iasi,2
+Denisa Elena Stolniceanu,Denisa-Elena.Stolniceanu@endava.com,HR,Senior,Timisoara,5
+Alina Trincu,Alina.Trincu@endava.com,Finance,Senior,Timisoara,5
+Adina Denisa Horj,Adina-Denisa.Horj@endava.com,IT,Mid,Bucuresti,5
+Darius Fratila,Darius.Fratila@endava.com,IT,Junior,Timisoara,3
+Veronica Caplea,Veronica.Caplea@endava.com,HR,Senior,Timisoara,4
+Andrei Tudor Grumazescu,Andrei-Tudor.Grumazescu@endava.com,IT,Senior,Iasi,3
+Vlad Ioan Durdeu,Vlad-Ioan.Durdeu@endava.com,IT,Mid,Timisoara,3
+Reka Katalin Darko,Reka-Katalin.Darko@endava.com,HR,Mid,Iasi,2
+Delia Tudor,Delia.Tudor@endava.com,IT,Mid,Iasi,4
+Diandra Fechita,Diandra.Fechita@endava.com,IT,Junior,Iasi,5
+Bogdan Nicolae Cotta,Bogdan-Nicolae.Cotta@endava.com,Finance,Junior,Iasi,2
+Tudor Mihai,Tudor.Mihai@endava.com,HR,Junior,Timisoara,4
+Vlad Baranceanu,Vlad.Baranceanu@endava.com,Finance,Junior,Bucuresti,4
+Eric Marian Dascalu,Eric-Marian.Dascalu@endava.com,IT,Mid,Iasi,2
+Mihai-Alexandru Birziloiu,Mihai-Alexandru.Birziloiu@endava.com,IT,Senior,Timisoara,2
+Eduard George Stan,Eduard-George.Stan@endava.com,Finance,Mid,Timisoara,4
+Rafael Ionut Stefanache,Rafael-Ionut.Stefanache@endava.com,HR,Senior,Cluj,2
+Remus Mihai Prodan,Remus-Mihai.Prodan@endava.com,HR,Senior,Iasi,5
+Vlad V Muresan,Vlad.Muresan2@endava.com,IT,Junior,Cluj,2
+Patricia Costras,Patricia.Costras@endava.com,Finance,Mid,Bucuresti,2
+Vlad Badulescu,Vlad.Badulescu@endava.com,HR,Junior,Iasi,4
+Calin Ciobanu,Calin.Ciobanu@endava.com,Finance,Junior,Iasi,3
+Andrei L Popovici,Andrei.Popovici2@endava.com,IT,Mid,Cluj,5
+Daria Alexia Irimie,Daria-Alexia.Irimie@endava.com,HR,Mid,Cluj,2
+Stefan Stescu,Stefan.Stescu@endava.com,Finance,Junior,Cluj,4
+Ioana Marc,Ioana.Marc2@endava.com,HR,Junior,Iasi,3
+Alexandru Topan-Farcau,Alexandru.Topan@endava.com,HR,Junior,Cluj,4
+Daria Craciun,Daria.Craciun@endava.com,IT,Senior,Bucuresti,5
+Andreea Cront,Andreea.Cront@endava.com,Finance,Senior,Cluj,4
+Andrada Maria Tinta,Andrada-Maria.Tinta@endava.com,HR,Junior,Bucuresti,2
+Raul Mihai Rusu,Raul-Mihai.Rusu@endava.com,IT,Mid,Iasi,3
+Carmen-Gabriela Nadragea,Carmen-Gabriela.Nadragea@endava.com,HR,Mid,Bucuresti,4
+Claudiu Marinescu,Claudiu.Marinescu@endava.com,HR,Mid,Timisoara,5
+Gabriel Alexandru Nedelcu,Gabriel-Alexandru.Nedelcu@endava.com,IT,Mid,Bucuresti,2
+Alexandru Dumitru Ionita,Alex.Ionita@endava.com,Finance,Senior,Cluj,3
+Robert Negre,Robert.Negre@endava.com,Finance,Junior,Timisoara,5
+Dragos Ionut Talaba,Dragos-Ionut.Talaba@endava.com,Finance,Mid,Cluj,4
+Mihai Negrea,Mihai.Negrea@endava.com,HR,Senior,Iasi,2
+Miruna Curduman,Miruna.Curduman@endava.com,IT,Mid,Bucuresti,2
+Alexandru Chelaru,Alexandru.Chelaru@endava.com,IT,Junior,Iasi,2
+Irina Morosanu,Irina.Morosanu@endava.com,IT,Senior,Bucuresti,4
+George-Catalin Ghiold,George-Catalin.Ghiold@endava.com,HR,Mid,Bucuresti,2
+Luka Popovici,Luka.Popovici@endava.com,IT,Junior,Iasi,4
+Alexandru Panainte,Alexandru.Panainte@endava.com,Finance,Senior,Iasi,3
+Andrei-Alexandru Midus,Andrei-Alexandru.Midus@endava.com,Finance,Mid,Iasi,3
+George Eduard Achiriloaei,George-Eduard.Achiriloaei@endava.com,IT,Senior,Iasi,2
+Ariana Casandra Olaru,Ariana-Casandra.Olaru@endava.com,HR,Senior,Cluj,5
+Raul Gabriel Chiorean,Raul-Gabriel.Chiorean@endava.com,IT,Junior,Cluj,5
+Daniel-Ionel Beg,Daniel-Ionel.Beg@endava.com,Finance,Senior,Bucuresti,2
+Vlad Cojocaru,Vlad.Cojocaru@endava.com,HR,Senior,Iasi,3
+Vlad Cristian Brinzas,Vlad-Cristian.Brinzas@endava.com,IT,Senior,Bucuresti,5
+Octavian Cojocariu,Octavian.Cojocariu@endava.com,Finance,Senior,Bucuresti,3
+Rodica Elena Rosca,Rodica-Elena.Rosca@endava.com,Finance,Mid,Iasi,3
+Andreea-Raluca Neagu,Andreea-Raluca.Neagu@endava.com,Finance,Junior,Iasi,2
+Sergiu Ungureanu,Sergiu.Ungureanu2@endava.com,Finance,Senior,Iasi,2
+Darius-Cristian Gherle,Darius-Cristian.Gherle@endava.com,Finance,Mid,Timisoara,2
+Anton Calin Stroia,Anton-Calin.Stroia@endava.com,Finance,Senior,Cluj,4
+Darius Dinu,Darius.Dinu@endava.com,Finance,Junior,Timisoara,2
+Andrei George Avram,Andrei-George.Avram@endava.com,IT,Senior,Timisoara,4
+Iuliana Raluca Butnariu,Iuliana-Raluca.Butnariu@endava.com,HR,Senior,Cluj,2
+Denis-Mihai Mateas,Denis-Mihai.Mateas@endava.com,IT,Senior,Cluj,5
+George Andrei Necula,George-Andrei.Necula@endava.com,HR,Senior,Cluj,3
+Daniela Maria Pascan,Daniela-Maria.Pascan@endava.com,IT,Mid,Timisoara,2
+Rares Stefan Cazan,Rares-Stefan.Cazan@endava.com,HR,Junior,Cluj,4
+Teodor Leahu,Teodor.Leahu@endava.com,IT,Junior,Timisoara,5
+Denisa Maria Gorea,Denisa-Maria.Gorea@endava.com,HR,Junior,Bucuresti,4
+Virgil Cimpean,Virgil.Cimpean@endava.com,Finance,Junior,Cluj,3
+Mihnea-Alexandru Pele,Mihnea-Alexandru.Pele@endava.com,HR,Senior,Iasi,3
+Manuel Lazar,Manuel.Lazar@endava.com,Finance,Senior,Iasi,3
+Andrei Alin Socoteala,Andrei-Alin.Socoteala@endava.com,IT,Senior,Bucuresti,4
+Robert Erno Eminovici,Robert-Erno.Eminovici@endava.com,HR,Junior,Timisoara,4
+Mihnea Daniel Popescu,Mihnea-Daniel.Popescu@endava.com,HR,Junior,Iasi,2
+Iustin-Mihai Stanciu,Iustin-Mihai.Stanciu@endava.com,Finance,Mid,Bucuresti,3
+Stefan Daniel Ionita,StefanDaniel.Ionita@endava.com,Finance,Junior,Cluj,3
+Flora Balogh,Flora.Balogh@endava.com,IT,Mid,Bucuresti,2
+Adriana Maria Vadean,Adriana-Maria.Vadean@endava.com,HR,Mid,Iasi,5
+Alexandru Cinipa,Alexandru.Cinipa@endava.com,Finance,Mid,Bucuresti,2
+Fabian Iordache,Fabian.Iordache@endava.com,IT,Senior,Iasi,5
+Alexandru Mirea,Alexandru.Mirea@endava.com,Finance,Mid,Iasi,2
+Robert Cristian,Robert.Cristian@endava.com,Finance,Senior,Cluj,3
+Nicola-Diana Sincaru,Nicola-Diana.Sincaru@endava.com,Finance,Mid,Iasi,3
+Andra-Maria Petcu,Andra-Maria.Petcu@endava.com,Finance,Junior,Iasi,3
+Ioan Sebastian Muresan,Ioan-Sebastian.Muresan@endava.com,Finance,Mid,Cluj,5
+Ioan Agape,Ioan.Agape@endava.com,Finance,Junior,Iasi,5
+Raluca Roiban,Raluca.Roiban@endava.com,HR,Junior,Cluj,3
+Ana Ciobanu,Ana.Ciobanu@endava.com,HR,Mid,Timisoara,2
+Alessia-Elena Rados,Alessia-Elena.Rados@endava.com,Finance,Senior,Iasi,2
+Rares Ciprian Balan,Rares-Ciprian.Balan@endava.com,HR,Junior,Bucuresti,2
+Lorena Maria Buzea,Lorena-Maria.Buzea@endava.com,IT,Senior,Bucuresti,3
+Robert-Viorel Lazarov,Robert-Viorel.Lazarov@endava.com,HR,Junior,Cluj,4
+Luigi Emanuel Arama,Luigi-Emanuel.Arama@endava.com,Finance,Junior,Timisoara,4
+Alexandru Cristian Grajdeanu,Alexandru-Cristian.Grajdeanu@endava.com,IT,Mid,Iasi,3
+Mozes Csaszar,Mozes.Csaszar@endava.com,Finance,Junior,Cluj,3
+Catalin George Adrian Otet,Catalin-George-Adrian.Otet@endava.com,IT,Mid,Bucuresti,2
+Eduard Stefan Mariniuc,Eduard-Stefan.Mariniuc@endava.com,HR,Junior,Iasi,4
+Valentin Alexe,Valentin.Alexe@endava.com,IT,Senior,Cluj,4
+Dragos Badarau,Dragos.Badarau@endava.com,IT,Junior,Timisoara,2
+Vasile Tudorel Arion,Tudor.Arion@endava.com,IT,Mid,Timisoara,3
+Vasile Meghesan,Vasile.Meghesan@endava.com,Finance,Junior,Cluj,2
+Rares Gabriel Margarint,Rares-Gabriel.Margarint@endava.com,HR,Junior,Timisoara,3
+Cerasela Nicola Soare,Cerasela-Nicola.Soare@endava.com,HR,Mid,Bucuresti,3
+Vlad Andrei Groza,Vlad-Andrei.Groza@endava.com,HR,Mid,Cluj,2
+Denis Ivan,Denis.Ivan@endava.com,Finance,Mid,Cluj,3
+Felix Cosmin Orga,Felix-Cosmin.Orga@endava.com,HR,Junior,Bucuresti,2
+Ionut Birsan,Ionut.Birsan@endava.com,Finance,Junior,Bucuresti,5
+Beniamin Cioban,Beniamin.Cioban@endava.com,IT,Senior,Timisoara,3
+Radu Branici,Radu.Branici@endava.com,Finance,Junior,Timisoara,4
+Stefan Cotos,Stefan.Cotos@endava.com,IT,Junior,Iasi,2
+Vlad Marian Pitariu,Vlad-Marian.Pitariu@endava.com,Finance,Mid,Iasi,2
+Celia Ciurchil-Giurgiu,Celia.Ciurchil@endava.com,Finance,Junior,Iasi,5
+Andrei Bogdan Aluculesei,Andrei-Bogdan.Aluculesei@endava.com,HR,Senior,Bucuresti,5
+Lucian Vatamanu,Lucian.Vatamanu@endava.com,HR,Junior,Cluj,4
+Vlad-Stefan Sas,Vlad-Stefan.Sas@endava.com,Finance,Mid,Iasi,4
+Lavinia Avram,Lavinia.Avram@endava.com,IT,Junior,Timisoara,3
+Silviu Vasilica Luta,Silviu-Vasilica.Luta@endava.com,IT,Mid,Iasi,2
+Stefania Diana Stirbu,Stefania-Diana.Stirbu@endava.com,IT,Senior,Cluj,3
+Ionut Popescu,Ionut.Popescu@endava.com,HR,Senior,Cluj,5
+Ionut Vlad Cira,Ionut-Vlad.Cira@endava.com,IT,Mid,Bucuresti,2
+Robert Fedus,Robert.Fedus@endava.com,Finance,Senior,Timisoara,2
+George Nicolae Botos,George-Nicolae.Botos@endava.com,Finance,Mid,Bucuresti,4
+Emanuela Lupancu,Emanuela.Lupancu@endava.com,HR,Junior,Bucuresti,4
+Andrei Titus Pavel,andrei-titus.pavel@endava.com,HR,Junior,Timisoara,3
+Alexandru Baba,Alexandru.Baba@endava.com,IT,Senior,Iasi,4
+Gabriela Casandra Pitu,Gabriela-Casandra.Pitu@endava.com,IT,Mid,Iasi,2
+Tudor Mihai Iakkel,Tudor-Mihai.Iakkel@endava.com,Finance,Junior,Bucuresti,4
+Constantin Bogdan Moga,Constantin-Bogdan.Moga@endava.com,Finance,Junior,Cluj,4
+Dragos Vatra,Dragos.Vatra@endava.com,IT,Mid,Timisoara,5
+Cristian Valentin Alexa,Cristian-Valentin.Alexa@endava.com,HR,Mid,Cluj,3
+Iuliana Elena Rusu,Iuliana-Elena.Rusu@endava.com,Finance,Mid,Bucuresti,2
+Robert Alexandru Badea,Robert-Alexandru.Badea@endava.com,IT,Senior,Cluj,3
+Mihnea Amihailesei,Mihnea.Amihailesei@endava.com,HR,Junior,Cluj,2
+Teodor Badarcea,Teodor.Badarcea@endava.com,IT,Mid,Cluj,3
+Serafim Uliuliuc,Serafim.Uliuliuc@endava.com,HR,Senior,Iasi,2
+Ilinca Maria Popovici,Ilinca-Maria.Popovici@endava.com,HR,Junior,Timisoara,4
+Alexandru Gabriel Cazan,Alexandru.Cazan@endava.com,HR,Senior,Bucuresti,4
+Patric Caliman,Patric.Caliman@endava.com,IT,Mid,Bucuresti,5
+Victor Valentin Vladulescu,Victor-Valentin.Vladulescu@endava.com,HR,Senior,Bucuresti,3
+Cornel Adrian Pop,Cornel-Adrian.Pop@endava.com,Finance,Junior,Timisoara,3
+Alexandru Serban,Alexandru.Serban2@endava.com,Finance,Senior,Iasi,2
+Andreea Maria Monete,Andreea-Maria.Monete@endava.com,Finance,Senior,Iasi,5
+George Patrasc,George.Patrasc@endava.com,HR,Junior,Timisoara,3
+Daniel Rosu,Daniel.Rosu@endava.com,HR,Junior,Cluj,4
+Tudor Leonte,Tudor.Leonte@endava.com,IT,Senior,Cluj,3
+Rares Dascalu,Rares.Dascalu@endava.com,Finance,Mid,Cluj,4
+Andrei Tudor Mirza,Andrei-Tudor.Mirza@endava.com,HR,Junior,Iasi,3
+Rares Alexandru Iancu,Rares-Alexandru.Iancu@endava.com,Finance,Junior,Cluj,5
+Laura Rusanescu,Laura.Rusanescu@endava.com,Finance,Mid,Timisoara,2
+Madalina Daiana Gligan,Madalina-Daiana.Gligan@endava.com,Finance,Mid,Cluj,3
+Cezara Teofana Aprofirei,Cezara-Teofana.Aprofirei@endava.com,HR,Junior,Timisoara,4
+Maria Mihaela Bradea,Maria-Mihaela.Bradea@endava.com,HR,Mid,Cluj,3
+Emma Simina Muresan,Emma-Simina.Muresan@endava.com,Finance,Junior,Cluj,3
+Cornelia Cojocari,Cornelia.Cojocari@endava.com,Finance,Junior,Iasi,4
+Alexandru Zagan,Alexandru.Zagan@endava.com,IT,Junior,Cluj,3
+Matei Tatar,Matei.Tatar@endava.com,HR,Senior,Cluj,4
+Sabin Andrei Popa,Sabin-Andrei.Popa@endava.com,Finance,Mid,Iasi,4
+Laura Andrada Ciobanu,Laura-Andrada.Ciobanu@endava.com,IT,Junior,Timisoara,5
+Darius Margarit,Darius.Margarit@endava.com,Finance,Junior,Timisoara,5
+Maria Iulia Zdrenghea,Maria-Iulia.Zdrenghea@endava.com,HR,Junior,Iasi,3
+George Iulian Stoian,George-Iulian.Stoian@endava.com,HR,Senior,Timisoara,4
+Irina Vasilita,Irina.Vasilita@endava.com,Finance,Mid,Bucuresti,3
+Adrian Visan,Adrian.Visan@endava.com,IT,Senior,Bucuresti,3
+Tudor Muntean,Tudor.Muntean@endava.com,Finance,Junior,Cluj,3
+Iulius Stefan Ambros,Iulius-Stefan.Ambros@endava.com,Finance,Mid,Timisoara,4
+Andrei Vataselu,Andrei.Vataselu@endava.com,HR,Junior,Iasi,2
+Alexandru Bardasu,Alexandru.Bardasu@endava.com,Finance,Mid,Bucuresti,2
+Andrei Apostol,Andrei.Apostol@endava.com,IT,Mid,Cluj,5
+Cosmin Gabriel Mirea,Cosmin-Gabriel.Mirea@endava.com,Finance,Mid,Bucuresti,4
+Bogdan Gargu,Bogdan.Gargu@endava.com,Finance,Mid,Bucuresti,5
+Anca Elena Ilie,Anca-Elena.Ilie@endava.com,IT,Mid,Iasi,4
+David Serban,David.Serban@endava.com,Finance,Senior,Iasi,3
+Bianca Maria Lazar,Bianca-Maria.Lazar@endava.com,IT,Junior,Iasi,3
+Tiberiu Iatan,Tiberiu.Iatan@endava.com,IT,Senior,Bucuresti,4
+Serban Marian Precup,Serban-Marian.Precup@endava.com,Finance,Mid,Timisoara,2
+Costina Vanghele,Costina.Vanghele@endava.com,Finance,Senior,Bucuresti,3
+Matei Micu,Matei-Mihai.Micu@endava.com,IT,Junior,Bucuresti,5
+Alexandru Duta,Alexandru.Duta2@endava.com,IT,Mid,Iasi,3
+Adrian Vasile Vladescu,Adrian-Vasile.Vladescu@endava.com,IT,Mid,Timisoara,4
+Bogdan Cristian Marcu,Bogdan-Cristian.Marcu@endava.com,Finance,Senior,Cluj,5
+Madalina Birtu,Madalina.Birtu@endava.com,Finance,Mid,Iasi,4
+Denisa Ibanescu,Denisa.Ibanescu@endava.com,IT,Mid,Bucuresti,2
+Sebastian Popa,Sebastian.Popa2@endava.com,IT,Senior,Cluj,3
+Daniela Munteanu,Daniela.Munteanu@endava.com,Finance,Mid,Bucuresti,2
+Nicolae Vasile Veciunca,Nicolae-Vasile.Veciunca@endava.com,HR,Mid,Timisoara,5
+Catalin Festeu,Catalin.Festeu@endava.com,IT,Senior,Iasi,4
+Tudor Gabriel Pascaru,Tudor-Gabriel.Pascaru@endava.com,HR,Senior,Bucuresti,5
+Cosmin Gabriel Petriuc,Cosmin-Gabriel.Petriuc@endava.com,HR,Mid,Cluj,3
+Mirela-Magdalena Catrina,Mirela-Magdalena.Catrina@endava.com,HR,Junior,Bucuresti,5
+Adelina Patlatii,Adelina.Patlatii@endava.com,HR,Mid,Timisoara,2
+Denis-Alexandru Antonescu,Denis-Alexandru.Antonescu@endava.com,HR,Senior,Timisoara,2
+Rafael Andries,Rafael.Andries@endava.com,Finance,Junior,Cluj,5
+Mihaly Richard Teutsch,Mihaly-Richard.Teutsch@endava.com,Finance,Junior,Timisoara,5
+Alexandru Edves,Alexandru.Edves@endava.com,HR,Senior,Bucuresti,4
+Ruben Daniel Pasca,Ruben-Daniel.Pasca@endava.com,IT,Mid,Bucuresti,2
+Robert Catalin Franciuc,Robert-Catalin.Franciuc@endava.com,Finance,Mid,Bucuresti,3
+Botond Ors Solyom,Botond-Ors.Solyom@endava.com,HR,Junior,Iasi,2
+Stefan-Daniel Ochian,Stefan-Daniel.Ochian@endava.com,HR,Senior,Timisoara,5
+Rita Timea Torok,Rita-Timea.Torok@endava.com,IT,Mid,Bucuresti,2
+Gabriela-Sidonia Ciontolac,Gabriela-Sidonia.Ciontolac@endava.com,IT,Mid,Bucuresti,4
+Alexandru Alin Potanga,Alexandru-Alin.Potanga@endava.com,Finance,Mid,Timisoara,5
+Diana Cristina Mocan,Diana-Cristina.Mocan@endava.com,HR,Senior,Cluj,2
+Stefan-Claudiu Bulintis,Stefan-Claudiu.Bulintis@endava.com,HR,Junior,Timisoara,2
+Octavian Paul Ilies,Octavian-Paul.Ilies@endava.com,Finance,Senior,Iasi,4
+Razvan Azoitei,Razvan.Azoitei@endava.com,Finance,Junior,Cluj,2
+Csilla Boglarka Nagy,Csilla-Boglarka.Nagy@endava.com,IT,Junior,Cluj,3
+Cosmin Felecanu,Cosmin.Felecanu@endava.com,Finance,Mid,Bucuresti,4
+Tiberiu Rabi,Tiberiu.Rabi@endava.com,HR,Junior,Timisoara,5
+Mihai Maciuc,Mihai.Maciuc@endava.com,HR,Junior,Timisoara,2
+Alexandru Pestritu,Alexandru.Pestritu@endava.com,Finance,Senior,Iasi,3
+Anca Vasilica Iacob,Anca-Vasilica.Iacob@endava.com,Finance,Mid,Bucuresti,2
+Raluca Elisa Butiurca,Raluca-Elisa.Butiurca@endava.com,IT,Senior,Bucuresti,3
+Dragos Alexandru Ion,Dragos-Alexandru.Ion@endava.com,Finance,Senior,Iasi,2
+Ioana Alexa,Ioana.Alexa@endava.com,Finance,Senior,Iasi,4
+Mihai Alexandru Militaru,Mihai-Alexandru.Militaru@endava.com,IT,Junior,Bucuresti,2
+Alexandru Tarcan,Alexandru.Tarcan@endava.com,Finance,Junior,Timisoara,2
+Sebastian Ionel Filipovici,Sebastian-Ionel.Filipovici@endava.com,HR,Junior,Iasi,3
+Filip Craciun,Filip.Craciun@endava.com,IT,Junior,Cluj,4
+Daniel Kewin Chifa,Daniel-Kewin.Chifa@endava.com,Finance,Junior,Iasi,2
+Andreea Marina Son,Andreea-Marina.Son@endava.com,HR,Junior,Bucuresti,3
+Huba Nemet,Huba.Nemet@endava.com,Finance,Mid,Timisoara,3
+Radu Ioan Stoica,Radu-Ioan.Stoica@endava.com,HR,Junior,Cluj,4
+Cosmin Carp,Cosmin.Carp@endava.com,HR,Junior,Iasi,3
+Laszlo Carlos Fodor,Laszlo-Carlos.Fodor@endava.com,IT,Junior,Cluj,2
+Stefan Nicolae Gheorghiu,Stefan-Nicolae.Gheorghiu@endava.com,HR,Mid,Iasi,4
+Aron Domokos Telegdy,Aron.Telegdy@endava.com,IT,Junior,Iasi,2
+Alin Avram,Alin.Avram@endava.com,HR,Mid,Cluj,2
+Maria Camelia Raicu,Maria-Camelia.Raicu@endava.com,Finance,Senior,Bucuresti,5
+Andreea Gabriela Pop,Andreea-Gabriela.Pop@endava.com,IT,Senior,Bucuresti,3
+Laurentiu Fratila,Laurentiu.Fratila@endava.com,HR,Junior,Timisoara,4
+Maria-Ioana Fuerea,Maria-Ioana.Fuerea@endava.com,HR,Senior,Bucuresti,3
+Zoltan Balint,Zoltan.Balint2@endava.com,HR,Junior,Bucuresti,2
+Alin Constantin Florescu,Alin-Constantin.Florescu@endava.com,HR,Mid,Cluj,5
+Raul Birsan,Raul.Birsan@endava.com,HR,Senior,Timisoara,2
+Angel David Palihovici,Angel-David.Palihovici@endava.com,Finance,Senior,Iasi,2
+Ciprian Serbu,Ciprian.Serbu@endava.com,Finance,Mid,Timisoara,5
+Rares Agachi,Rares.Agachi@endava.com,HR,Mid,Cluj,4
+Bianca Popescu,Bianca.Popescu@endava.com,HR,Junior,Bucuresti,2
+Marius Beschieru,Marius.Beschieru@endava.com,Finance,Mid,Bucuresti,5
+Noemi Szidonia Szilagyi,Noemi-Szidonia.Csegezi@endava.com,Finance,Mid,Iasi,4
