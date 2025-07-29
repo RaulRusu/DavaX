@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+aiokafka
+-e ./shared_core

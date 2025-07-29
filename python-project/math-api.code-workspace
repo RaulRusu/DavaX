@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "math-api",
+			"path": "math-api"
+		},
+		{
+			"name": "logger-microservice",
+			"path": "logger-microservice"
+		},
+		{
+			"name": "shared_core",
+			"path": "shared_core"
+		}
+	],
+	"settings": {}
+}

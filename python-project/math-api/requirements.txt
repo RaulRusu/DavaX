@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+aiokafka
+pydantic
+pydantic-settings
+python-dotenv
+oracledb
+pydantic-settings
+httpx
+-e ./shared_core
