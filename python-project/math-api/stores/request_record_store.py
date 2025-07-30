@@ -28,11 +28,9 @@ class RequestRecordStore:
                 )
                 await connection.commit()
         except asyncio.TimeoutError:
-            print("Database connection timed out!")
-            #TODO: add proper logging
+            self.db_client.logger.error("Database connection timed out!")
         except Exception as e:
-            print("Some other error:", e)
-            #TODO: add proper logging
+            self.db_client.logger.error(f"Some other error: {e}")
             return False
         finally:
             if connection:

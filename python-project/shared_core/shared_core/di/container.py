@@ -41,6 +41,25 @@ class DIContainer:
 
         return instance
     
+    def resolve_sync(self, bind_to: Type[T]) -> T:
+        """Resolve a type synchronously, returning an instance (cached if singleton)."""
+        if bind_to not in self._providers:
+            raise DependencyNotFound(bind_to)
+
+        provider, singleton = self._providers[bind_to]
+
+        if singleton and bind_to in self._singletons:
+            return self._singletons[bind_to]
+
+        instance = provider()
+        if asyncio.iscoroutine(instance):
+            raise RuntimeError("Cannot resolve async provider synchronously")
+
+        if singleton:
+            self._singletons[bind_to] = instance
+
+        return instance
+
     def has_instance(self, bind_to: Type[T]) -> bool:
         return bind_to in self._singletons
 

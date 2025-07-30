@@ -6,6 +6,7 @@ from shared_core.kafka.sender import KafkaProducerConnectionPool, AiokafkaProduc
 from shared_core.config.env_loader import get_kafka_config
 from shared_core.kafka.log_dispatcher import KafkaLogDispatcher, max_attempts_strategy_factory
 from shared_core.di.container import container
+from shared_core.internal_logger import BaseInternalLogger
 
 async def register_dependencies():
     @bind(singleton=True)
@@ -44,6 +45,10 @@ async def register_dependencies():
     @bind(singleton=True)
     async def get_service_config() -> ServiceConfig:
         return ServiceConfig()
+    
+    @bind(singleton=True)
+    def get_internal_logger() -> BaseInternalLogger:
+        return BaseInternalLogger()
 
 async def clear_dependencies():
     if container.has_instance(KafkaLogDispatcher):

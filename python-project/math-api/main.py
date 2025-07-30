@@ -24,9 +24,7 @@ async def lifespan(app: FastAPI):
     await di_setup.register_dependencies()
     await setup_logging()
     yield
-    print("Cleaning logging handlers...")
     await clear_logging()
-    print("Clearing dependencies...")
     await di_setup.clear_dependencies()
 
 app = FastAPI(lifespan=lifespan)

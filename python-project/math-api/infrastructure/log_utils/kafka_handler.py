@@ -34,5 +34,5 @@ class KafkaLoggingHandler(Handler):
             self._svc_name, 
             self._svc_host
         )
-        # If inside an async context, use:
+        
         create_task(self._dispatcher.log(msg))

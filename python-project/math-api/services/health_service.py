@@ -14,7 +14,7 @@ class HealthService:
     async def check_log_microservice_health(self):
         try:
             async with httpx.AsyncClient() as client:
-                response = await client.get("http://localhost:8001/health", timeout=2)
+                response = await client.get("http://log-consumer:8001/health", timeout=2)
                 return response.json()
         except httpx.RequestError as e:
             return {"status": HealthService.DOWN_STATUS}

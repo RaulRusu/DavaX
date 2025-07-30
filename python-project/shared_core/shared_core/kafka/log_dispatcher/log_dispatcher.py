@@ -1,10 +1,12 @@
 import asyncio
 from typing import Optional
 
+from shared_core.internal_logger.internal_logger import LoggingMixin
+
 from .protocols import RetryStrategy
 from ..sender import KafkaSender
 
-class KafkaLogDispatcher:
+class KafkaLogDispatcher(LoggingMixin):
     def __init__(
         self, 
         sender: KafkaSender, 
@@ -24,7 +26,7 @@ class KafkaLogDispatcher:
         try:
             await self._queue.put(msg)
         except asyncio.QueueFull:
-            print("Queue full, dropping log message")
+            self.logger.warning("Queue full, dropping log message")
 
     async def _background_send(self):
         while True:
@@ -36,9 +38,10 @@ class KafkaLogDispatcher:
                     break  # Success!
                 except Exception as exc:
                     attempt += 1
-                    should_retry = await self._retry_strategy(attempt, exc)
+                    self.logger.error(f"Failed to send message: {msg}, attempt {attempt}, error: {exc}")
+                    should_retry = await self._retry_strategy(attempt)
                     if not should_retry:
-                        print(f"Giving up on message after {attempt} attempts: {msg}")
+                        self.logger.error(f"Giving up on message after {attempt} attempts: {msg}")
                         break
 
     async def close(self):

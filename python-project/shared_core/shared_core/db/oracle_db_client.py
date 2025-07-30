@@ -1,8 +1,9 @@
 import oracledb
 import asyncio
 from shared_core.config.env_loader import get_db_config
+from shared_core.internal_logger import LoggingMixin
 
-class OracleDBClient:
+class OracleDBClient(LoggingMixin):
     def __init__(self):
         config = get_db_config()
         self.user: str = config.db_user
@@ -41,5 +42,5 @@ class OracleDBClient:
                 _ = await cursor.fetchone()
                 return True
         except Exception as e:
-            print(f"Database ping failed: {e}")
+            self.logger.error(f"Database ping failed: {e}")
             return False
