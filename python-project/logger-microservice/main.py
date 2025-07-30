@@ -28,11 +28,15 @@ app.state.consumer_task = None
 async def health():
     return {"status": "UP"}
 
+async def start_kafka_consumer():
+    consumer = await container.resolve(KafkaConsumer)
+    await consumer.start(max_retries = 10)
+    await consumer.run()
+
 async def on_startup():
     await register_dependencies()
-    consumer = await container.resolve(KafkaConsumer)
-    app.state.consumer_task = asyncio.create_task(consumer.run())
-    pass
+    app.state.consumer_task = asyncio.create_task(start_kafka_consumer())
+    
 
 async def on_shutdown():
     if app.state.consumer_task:

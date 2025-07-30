@@ -2,6 +2,9 @@ from typing import Optional
 from shared_core.models.service_log import ServiceLog
 from asyncio import create_task
 from stores.log_store import ServiceLogStore
+from shared_core.internal_logger import BaseInternalLogger
+from shared_core.di.container import container
+
 class LogService:
     def __init__(self, log_store: ServiceLogStore):
         self.log_store = log_store
@@ -12,16 +15,17 @@ class LogService:
 class LogProcessor:
     def __init__(self, log_service: LogService):
         self.log_service = log_service
+        self.logger = container.resolve_sync(BaseInternalLogger)
 
     async def __call__(self, message: str) -> None:
-        print("Received log message: ", message)
+        self.logger.info("Received log message: " + str(message))
         log: Optional[ServiceLog] = None
         if not message:
             return
         try:
             log = ServiceLog.model_validate_json(message)
         except Exception as e:
-            print(f"Failed to parse log message: {e}")
+            self.logger.error(f"Failed to parse log message: {e}")
             return
 
         create_task(self.log_service.write_log(log))

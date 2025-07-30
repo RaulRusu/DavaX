@@ -5,7 +5,7 @@ from shared_core.kafka.consumer import KafkaConsumer
 from shared_core.config.env_loader import get_kafka_config
 from shared_core.di.container import container
 from stores.log_store import ServiceLogStore
-
+from shared_core.internal_logger import BaseInternalLogger
 
 async def register_dependencies():
     @bind(singleton=True)
@@ -37,3 +37,7 @@ async def register_dependencies():
             processor=log_processor,
             group_id='log_processor'
         )
+    
+    @bind(singleton=True)
+    def get_internal_logger() -> BaseInternalLogger:
+        return BaseInternalLogger()
