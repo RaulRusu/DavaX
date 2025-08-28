@@ -222,7 +222,6 @@ Each uses the `useHoverDisclosure` + `HoverPanel` for single-row previews with e
   )
   registry.register(fn)
   ```
----
 
 ### RAG Indexing & Diff
 - Uses **ChromaDB** as vector store.
@@ -233,7 +232,6 @@ Each uses the `useHoverDisclosure` + `HoverPanel` for single-row previews with e
   - **Deletes** removed docs.
 - Efficient: only re-embeds what changed.
 
----
 
 ### Embeddings Choice
 - Tried HuggingFace `SentenceTransformerEmbeddingFunction`:
