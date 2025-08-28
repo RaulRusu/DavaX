@@ -1,0 +1,158 @@
+{
+    role: "user",
+    content: "What's the weather in Paris?"
+}
+
+{
+    "type": "function_call",
+    "id": "fc_67ca09c6bedc8190a7abfec07b1a1332096610f474011cc0",
+    "call_id": "call_unLAR8MvFNptuiZK6K6HCy5k",
+    "name": "get_current_weather",
+    "arguments": "{\"location\":\"Boston, MA\",\"unit\":\"celsius\"}",
+    "status": "completed"
+}
+
+{
+    "type": "function_call_output",
+    "call_id": "call_unLAR8MvFNptuiZK6K6HCy5k" / function_call.call_id,
+    "output": {"temperature": "70F", "unit": "F"},
+}
+
+{
+    role: "assistant"
+    content: "...."
+}
+
+
+
+------------------------------
+
+[
+  {
+    "id": 1001,
+    "chat_id": 456,
+    "role": "user",
+    "event_type": "message_text",
+    "content": {
+      "raw": "I'm visiting Paris tomorrow. What's the weather and any must-see places near the Louvre?",
+      "masked": "I'm visiting Paris tomorrow. What's the weather and any must-see places near the Louvre?"
+    },
+    "visibility": ["user", "llm_input", "audit"],
+    "created_at": "2025-08-19T12:00:00Z",
+    "payload": {
+      "content": "I'm visiting Paris tomorrow. What's the weather and any must-see places near the Louvre?"
+    }
+  },
+  {
+    "id": 1002,
+    "chat_id": 456,
+    "role": "event",
+    "event_type": "sanitizer_report",
+    "content": {
+      "raw": "No PII detected",
+      "masked": "No PII detected"
+    },
+    "visibility": ["ui", "audit"],
+    "created_at": "2025-08-19T12:00:00Z",
+    "payload": {
+      "detected": [],
+      "actions": [],
+      "notes": "Input passed standard sanitization rules."
+    }
+  },
+  {
+    "id": 1003,
+    "chat_id": 456,
+    "role": "event",
+    "event_type": "rag_query",
+    "content": {
+      "raw": "Paris must-see near the Louvre; opening hours; short walks",
+      "masked": "Paris must-see near the Louvre; opening hours; short walks"
+    },
+    "visibility": ["ui", "audit"],
+    "created_at": "2025-08-19T12:00:01Z",
+    "payload": {
+      "query": "Paris must-see attractions near the Louvre; opening hours; walking distance",
+      "filters": { "locale": "en", "city": "Paris", "k": 5 }
+    }
+  },
+  {
+    "id": 1004,
+    "chat_id": 456,
+    "role": "event",
+    "event_type": "rag_retrieval",
+    "content": {
+      "raw": "Top-k retrieved",
+      "masked": "Top-k retrieved"
+    },
+    "visibility": ["ui", "audit"],
+    "created_at": "2025-08-19T12:00:01Z",
+    "payload": {
+      "results": [
+        { "doc_id": "wiki-tuileries", "source": "Wikipedia", "score": 0.92, "snippet": "Tuileries Garden sits between the Louvre and Place de la Concorde..." },
+        { "doc_id": "mus-orsay", "source": "Official Site", "score": 0.89, "snippet": "Musée d’Orsay across the Seine; major Impressionist collection..." },
+        { "doc_id": "ile-de-la-cite", "source": "City Guide", "score": 0.83, "snippet": "Île de la Cité, Notre-Dame area; short scenic walks..." }
+      ]
+    }
+  },
+  {
+    "id": 1005,
+    "chat_id": 456,
+    "role": "event",
+    "event_type": "function_call",
+    "content": {
+      "raw": "get_weather(location='Paris, France', day='2025-08-20')",
+      "masked": "get_weather(location='Paris, France', day='2025-08-20')"
+    },
+    "visibility": ["ui", "audit"],
+    "created_at": "2025-08-19T12:00:02Z",
+    "payload": {
+      "name": "get_weather",
+      "call_id": "call_abc123",
+      "arguments": { "location": "Paris, France", "day": "2025-08-20" }
+    }
+  },
+  {
+    "id": 1006,
+    "chat_id": 456,
+    "role": "event",
+    "event_type": "function_result",
+    "content": {
+      "raw": "Paris 2025-08-20: high 26°C, low 16°C, mostly sunny; breeze ~10 kph.",
+      "masked": "Paris 2025-08-20: high 26°C, low 16°C, mostly sunny; breeze ~10 kph."
+    },
+    "visibility": ["llm_input", "ui", "audit"],
+    "created_at": "2025-08-19T12:00:02Z",
+    "payload": {
+      "tool": "get_weather",
+      "call_id": "call_abc123",
+      "result": {
+        "location": "Paris",
+        "date": "2025-08-20",
+        "high_c": 26,
+        "low_c": 16,
+        "condition": "mostly_sunny",
+        "wind_kph": 10
+      }
+    }
+  },
+  {
+    "id": 1007,
+    "chat_id": 456,
+    "role": "assistant",
+    "event_type": "message_text",
+    "content": {
+      "raw": "Tomorrow in Paris looks mostly sunny (~26°C/16°C). If you’re near the Louvre, stroll the Tuileries Garden, then cross the Seine to Musée d’Orsay. Want a short walking route?",
+      "masked": "Tomorrow in Paris looks mostly sunny (~26°C/16°C). If you’re near the Louvre, stroll the Tuileries Garden, then cross the Seine to Musée d’Orsay. Want a short walking route?"
+    },
+    "visibility": ["user", "llm_input", "audit"],
+    "created_at": "2025-08-19T12:00:03Z",
+    "payload": {
+      "citations": [
+        { "kind": "rag", "doc_id": "wiki-tuileries" },
+        { "kind": "rag", "doc_id": "mus-orsay" },
+        { "kind": "tool", "call_id": "call_abc123" }
+      ]
+    }
+  }
+]

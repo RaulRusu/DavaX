@@ -1,0 +1,82 @@
+[
+    {
+        "title": "1984",
+        "summary": "Set in a dystopian future, George Orwell's '1984' explores life under an oppressive regime where the government, led by the figurehead Big Brother, controls every aspect of its citizens' lives through constant surveillance, propaganda, and manipulation of truth. Winston Smith, a low-ranking member of the Party, begins to question the system and secretly rebels in search of love, freedom, and objective reality, only to face devastating consequences."
+    },
+    {
+        "title": "The Hobbit",
+        "summary": "J.R.R. Tolkien’s 'The Hobbit' follows Bilbo Baggins, a comfort-loving hobbit whose life changes when he is swept into a grand adventure by the wizard Gandalf and a group of dwarves. Tasked with helping them reclaim their stolen treasure from the fearsome dragon Smaug, Bilbo faces trolls, goblins, giant spiders, and more, ultimately discovering his own bravery, cleverness, and capacity for friendship."
+    },
+    {
+        "title": "Pride and Prejudice",
+        "summary": "Jane Austen’s 'Pride and Prejudice' tells the story of Elizabeth Bennet, a sharp-witted young woman navigating issues of class, marriage, and morality in early 19th-century England. As she encounters the proud and reserved Mr. Darcy, her initial prejudice and his arrogance give way to mutual respect and love, revealing deeper truths about character and personal growth."
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "summary": "Harper Lee’s classic novel is set in the racially segregated American South during the 1930s. Through the eyes of young Scout Finch, we see her father, Atticus, courageously defend a black man accused of raping a white woman. The story explores themes of racial injustice, empathy, and moral courage, while also capturing the innocence and complexity of childhood."
+    },
+    {
+        "title": "The Great Gatsby",
+        "summary": "F. Scott Fitzgerald’s 'The Great Gatsby' is a portrait of the Jazz Age, following the enigmatic millionaire Jay Gatsby and his obsessive love for Daisy Buchanan. Narrated by Nick Carraway, the novel examines themes of wealth, ambition, and the American Dream, ultimately revealing the hollowness and moral decay hidden beneath a glittering facade."
+    },
+    {
+        "title": "Moby-Dick",
+        "summary": "Herman Melville’s epic tale follows Ishmael, a sailor aboard the whaling ship Pequod, commanded by the obsessed Captain Ahab. Ahab’s relentless pursuit of the legendary white whale, Moby Dick, becomes a powerful allegory of vengeance, fate, and humanity’s struggle against nature’s forces."
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "summary": "J.D. Salinger’s 'The Catcher in the Rye' captures the voice of teenage alienation through Holden Caulfield, a disenchanted youth wandering New York City after being expelled from school. Through his cynical observations and yearning for authenticity, the novel explores themes of innocence, identity, and the transition to adulthood."
+    },
+    {
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "summary": "J.R.R. Tolkien’s epic fantasy begins with Frodo Baggins inheriting the One Ring, a powerful artifact sought by the dark lord Sauron. Joined by a diverse fellowship, Frodo embarks on a perilous quest to destroy the ring in Mount Doom, facing treacherous landscapes, ancient evils, and moral temptations along the way."
+    },
+    {
+        "title": "Brave New World",
+        "summary": "Aldous Huxley’s 'Brave New World' imagines a future where society is engineered for stability through genetic manipulation, consumerism, and the suppression of individuality. Citizens are conditioned to embrace pleasure over truth, and when a man from the outside world enters this utopia, the clash between freedom and control becomes inevitable."
+    },
+    {
+        "title": "Animal Farm",
+        "summary": "George Orwell’s allegorical novella tells the story of farm animals who overthrow their human owner in the hope of creating an equal society. However, as the pigs assume leadership, they become indistinguishable from the humans they replaced, illustrating the corrupting influence of power and the betrayal of revolutionary ideals."
+    },
+    {
+        "title": "War and Peace",
+        "summary": "Leo Tolstoy’s monumental novel interweaves the lives of aristocratic families with the historical events of the Napoleonic Wars. Through richly drawn characters like Pierre Bezukhov, Andrei Bolkonsky, and Natasha Rostova, the story explores themes of love, destiny, and the search for meaning amid war and societal change."
+    },
+    {
+        "title": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "summary": "C.S. Lewis introduces readers to the magical world of Narnia, discovered by four siblings through a wardrobe. Under the tyranny of the White Witch, Narnia is trapped in eternal winter, but with the return of the noble lion Aslan, the children join a battle to restore peace and hope."
+    },
+    {
+        "title": "Frankenstein",
+        "summary": "Mary Shelley’s 'Frankenstein' tells the haunting story of Victor Frankenstein, a scientist who creates life from dead tissue. The creature, rejected by society and its creator, embarks on a path of vengeance, forcing readers to question the ethics of scientific ambition and the nature of humanity."
+    },
+    {
+        "title": "The Alchemist",
+        "summary": "Paulo Coelho’s philosophical novel follows Santiago, a shepherd boy, on his quest to find a hidden treasure near the pyramids of Egypt. Along the way, he encounters mentors, omens, and challenges that teach him about listening to his heart, embracing the journey, and fulfilling one’s personal legend."
+    },
+    {
+        "title": "Crime and Punishment",
+        "summary": "Fyodor Dostoevsky’s psychological drama follows Raskolnikov, a destitute ex-student in St. Petersburg, who murders a pawnbroker to test his theory of moral superiority. Tormented by guilt and paranoia, he confronts questions of morality, justice, and the possibility of redemption."
+    },
+    {
+        "title": "Jane Eyre",
+        "summary": "Charlotte Brontë’s 'Jane Eyre' follows the life of an orphan who becomes a governess at Thornfield Hall, where she falls in love with the brooding Mr. Rochester. Faced with secrets, societal constraints, and moral dilemmas, Jane must navigate her path to self-respect and true love."
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "summary": "Oscar Wilde’s only novel tells of Dorian Gray, a young man whose beauty is preserved while his portrait ages and reflects his moral corruption. As he indulges in a life of hedonism, the consequences of his choices manifest in the grotesque transformation of the hidden painting."
+    },
+    {
+        "title": "Les Misérables",
+        "summary": "Victor Hugo’s sweeping epic follows Jean Valjean, an ex-convict seeking redemption, as he navigates the injustices of 19th-century France. Intertwining personal struggles with political upheaval, the novel explores themes of justice, love, sacrifice, and the enduring human spirit."
+    },
+    {
+        "title": "Dracula",
+        "summary": "Bram Stoker’s Gothic masterpiece chronicles Count Dracula’s attempt to spread vampirism from Transylvania to England. Told through diaries and letters, the novel blends horror, romance, and suspense as a group of determined individuals battles the ancient evil."
+    },
+    {
+        "title": "The Kite Runner",
+        "summary": "Khaled Hosseini’s powerful novel tells the story of Amir, a boy from Kabul whose betrayal of his loyal friend Hassan haunts him for decades. Set against the backdrop of Afghanistan’s turbulent history, the novel explores themes of guilt, redemption, and the enduring bonds of friendship."
+    }
+]

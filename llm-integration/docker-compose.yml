@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  py-api:
+    build: 
+      context: .
+      dockerfile: py-api/Dockerfile
+    container_name: py-api
+    env_file:
+      - ./py-api/.env
+    environment: 
+      - RUN_ENV=docker
+    ports:
+      - "8000:8000"
+
+  web-app:
+    build:
+      context: ./chat-frontend
+      dockerfile: Dockerfile
+      args:
+        BUILD_DIR: dist
+    container_name: web-app
+    depends_on:
+      - py-api
+    environment:
+      - VITE_API_URL=http://py-api:8000
+    ports:
+      - "3000:80"
